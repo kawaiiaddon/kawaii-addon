@@ -1,3 +1,4 @@
+/*John220099 : LOL colors are all over the place*/
 html {
     font-family: 'Rubik';
 }
@@ -73,7 +74,7 @@ li {
 button {
     padding: 12px 28px;
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     border-radius: 8px;
     cursor: pointer;
@@ -81,14 +82,25 @@ button {
     border: none;
 }
 
-.btn-outline {
-    background-color: black;
+.meteor {
+    background-color: #913de2;
     color: white;
-    border: 2px solid white;
+    border: 2px solid rgb(44, 44, 48);
 }
 
-.btn-outline:hover {
-    background-color: rgba(58, 58, 58, 0.747);
+.meteor:hover {
+    background-color: #6D2EAA;
+    transform: translateY(-2px);
+}
+
+.rusher {
+    background-color: #3399ff;
+    color: white;
+    border: 2px solid rgb(44, 44, 48);
+}
+
+.rusher:hover {
+    background-color: #1A5691;
     transform: translateY(-2px);
 }
 
